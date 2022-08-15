@@ -1,4 +1,5 @@
 composer install
+composer update
 npm install
 php artisan key:generate
 chmod 755 -R *

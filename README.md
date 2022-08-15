@@ -17,10 +17,12 @@ Installation is the same as a standard Laravel project and requires an Apache/NG
 MySQL, composer, NodejS and a terminal.
 
 1) Clone this repository and go into the folder.
-2) Import the data from the "*installation/requests.sql*" script (this script automatically creates the user, the database data, creates the tables and populates the users table with the 4 accounts described below)
-3)  Run`chmod +x installation/install.sh && ./installation/install.sh`
-4)  Run`php artisan serv`
-5) The site is accessible at the address: http://localhost:8000
+2) Copy the .env.example file to .env to define your database credentials.
+Run `cp .env.example .env`
+3) Import into the database the data from the "*installation/requests.sql*" script (this script automatically creates the user, the database data, creates the tables and populates the users table with the 3 accounts described below)
+4) Run`chmod +x installation/install.sh && ./installation/install.sh`
+5) Run`php artisan serv`
+6) The site is accessible at the address: http://localhost:8000
 
 The script " *installation/install.sh* " executes the installation commands of composer, nodes, give the necessary rights,  but can't do the other steps alone and assume these general apps are already installed.
 
@@ -29,11 +31,10 @@ All information related to security can be found in the report in pdf format fou
 
 ## Password:
 
-We have created 4 accounts that are imported into requests.sql, the password for each is `aA1234567@`:
+We have created 3 accounts that are imported into requests.sql, the password for each is `aA1234567@`:
 
 - Bryan Grégoire, 53735@etu.he2b.be, aA1234567@
 - Billal Zidi, 54637@etu.he2b.be, aA1234567@
-- Romain Absil, rabsil@he2b.be, aA1234567@
 - Pierre Hauweele, phauweele@he2b.be, aA1234567@
 
 The SQL queries create a user " `shareFiles` " whose password  
