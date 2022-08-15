@@ -82,7 +82,12 @@ class RegisterController extends Controller {
             'name' => $data['name'],
             'matricule' => $data['matricule'],
             'email' => $data['email'],
-            'password' => Hash::make($data['password'], ['rounds' => 12]),
+//            'password' => Hash::make($data['password'], ['rounds' => 12]), // bcrypt
+            'password' => Hash::make($data['password'], [    //argon2
+                'memory' => 1024,
+                'time' => 2,
+                'threads' => 2,
+            ])
         ]);
     }
 }

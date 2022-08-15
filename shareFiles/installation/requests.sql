@@ -90,9 +90,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `matricule`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`, `last_action`) VALUES
-('28f0918a-a1b8-4f0e-a73a-b390c1a75d2d', 'Bryan Grégoire', '53735', '53735@etu.he2b.be', NULL, '$2y$12$1PWXFcXrxLDRAYs26DPExePYWUZMrGdkW5L9onXZIj.L1bkNHVuhu', '4IKj95oSlD0PnCDPzzYOyflKAat23CwbD7N8TjHUPfGfJl0rAkD9fZ1uKife', '2022-08-26 12:23:47', '2022-08-26 12:23:47', '2022-08-26 15:23:47'),
-('98638172-a1b8-4f0e-a73a-73N29187NJEA', 'Billal Zidi', '54637', '54637@etu.he2b.be', NULL, '$2y$12$1PWXFcXrxLDRAYs26DPExePYWUZMrGdkW5L9onXZIj.L1bkNHVuhu', '4IKj95oSlD0PnCDPzzYOyflKAat23CwbD7N8TjHUPfGfJl0rAkD9fZ1uKife', '2022-08-26 12:23:47', '2022-08-26 12:23:47', '2022-08-26 15:23:47'),
-('bb113a75-df52-4a7d-8db0-8eb35441bf4a', 'Pierre Hauweele', 'pha', 'phauweele@he2b.be', NULL, '$2y$12$FF8y.aMQqwjS51wIvBrc..THdETvLhdEubKnN2Kva/P.1nYPagnSC', 'DgAYU8qUz6YQOZSlPoMvcIE2VkYc5khWpmXPUojZzR3IW8CoLu7n0mDiHUJ0', '2022-08-26 12:23:47', '2022-08-26 12:23:47', '2022-08-26 15:23:47');
+('28f0918a-a1b8-4f0e-a73a-b390c1a75d2d', 'Bryan Grégoire', '53735', '53735@etu.he2b.be', NULL, '$argon2id$v=19$m=1024,t=2,p=2$NERQZDZBS25BQzNSWEVycw$Dpk+H1VhH747DDC2rjk9oXeTg1v1d2A3sBplCv7Q8u2XtUJwSaxTs0hIdmx+1kHVe4F6K0UhlHdUg+D3r3lK6ylL7zDqB/q3KZjQbyF0Rk3KehfpM0bLGLg7/NeO0w8N', '4IKj95oSlD0PnCDPzzYOyflKAat23CwbD7N8TjHUPfGfJl0rAkD9fZ1uKife', '2022-08-26 12:23:47', '2022-08-26 12:23:47', '2022-08-26 15:23:47'),
+('98638172-a1b8-4f0e-a73a-73N29187NJEA', 'Billal Zidi', '54637', '54637@etu.he2b.be', NULL, '$argon2id$v=19$m=1024,t=2,p=2$SmNQMjRyclQ3d1Zmb3hZeg$xrZdrh2gAygJhNNg4OgcMVFBHNhpK3eG8WHfIRYEH2G18yOObuD/biUe5HuXhkiA/RNqA/al68WXFho2I5HwTq1bodJZPDzuUcy8EwP3PGG3o23sv3A5+QznTZYkSY2E', '4IKj95oSlD0PnCDPzzYOyflKAat23CwbD7N8TjHUPfGfJl0rAkD9fZ1uKife', '2022-08-26 12:23:47', '2022-08-26 12:23:47', '2022-08-26 15:23:47'),
+('bb113a75-df52-4a7d-8db0-8eb35441bf4a', 'Pierre Hauweele', 'pha', 'phauweele@he2b.be', NULL, '$argon2id$v=19$m=1024,t=2,p=2$MGd3a0RTSG1wRmJ6TWNqNg$CvWFkhK5nctsvaYe/iGaq8lIuB/w80/p/4b4S0O1o/axGib+bkSNj4kzeyits+j6KkbjdaUeWzK9fvHKgeVljATs6s8+wPSTmSCeRBaHT02bM8ScmZ/2JvRUsYrBDiWy', 'DgAYU8qUz6YQOZSlPoMvcIE2VkYc5khWpmXPUojZzR3IW8CoLu7n0mDiHUJ0', '2022-08-26 12:23:47', '2022-08-26 12:23:47', '2022-08-26 15:23:47');
 
 --
 -- Index pour les tables d�charg�es
